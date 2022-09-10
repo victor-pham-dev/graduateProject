@@ -1,0 +1,12 @@
+.newsCarousel {
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+.slick-slide{
+    padding: 6px;
+}
+.slick-arrow.slick-prev {
+    left: -20px;
+}
+.slick-arrow.slick-next {
+    right: -20px;
+}

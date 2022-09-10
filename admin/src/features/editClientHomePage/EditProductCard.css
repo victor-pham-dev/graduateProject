@@ -1,0 +1,25 @@
+.ant-card-body {
+    padding: 6px;
+}
+.ant-card-meta-description {
+    font-size: 0.8rem;
+}
+.ant-card-meta-title {
+    white-space: unset;
+    font-size: 0.9rem;
+    height: 45px;
+    overflow: hidden;
+}
+.ant-card-meta-title:hover {
+    color: dodgerblue;
+}
+.ant-card-meta {
+    margin: 0;
+}
+.price {
+    font-weight: bold;
+}
+.dashedPrice {
+
+    font-size: 0.7rem;
+}

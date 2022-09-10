@@ -1,0 +1,22 @@
+.newsCarousel {
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+}
+.ant-menu-submenu-active.ant-menu-submenu-open {
+    background-color: #ebebeb;
+    color: red !important;
+}
+.ant-menu-vertical .ant-menu-submenu-title {
+    margin: 0 !important;
+}
+.ant-menu-title-content {
+    font-family: sans-serif;
+    text-transform: uppercase;
+    font-weight: 500;
+    color: #1890ff;
+}
+.ant-menu-title-content {
+    text-transform: none !important;
+}
+.anticon.ant-menu-item-icon {
+    color: #1890ff;
+}
