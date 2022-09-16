@@ -1,0 +1,80 @@
+[{
+  "_id": {
+    "$oid": "62ce22bfee96f0d5e5743925"
+  },
+  "facebookId": "1175439326539076",
+  "name": "Truong Pham",
+  "email": "cachuachin3110@gmail.com",
+  "phone": "",
+  "avatar": "http://localhost:3333/file/6308a4b2f6e431344d680fff",
+  "password": "$2a$10$LypXRuCcOnrVSbsNrhL2gOGwk9BiwFpj4Vu6IbN8AD2nIDofBC2Dy",
+  "cart": [
+    {
+      "name": "Laptop MacBook Pro 14 M1 Max 2021 512GB",
+      "img": "62c7d0b1e054ddd6b5b58940",
+      "classifyname": "Màu trắng",
+      "classifyprice": 72400000,
+      "quantity": 1,
+      "productId": "62c7d1aee054ddd6b5b5894c"
+    },
+    {
+      "name": "Samsung Galaxy Z Flip3 5G 128GB",
+      "img": "62d80b75f03a4ca296d29422",
+      "classifyname": "Xanh",
+      "classifyprice": 18300000,
+      "quantity": 18,
+      "productId": "62d80b97f03a4ca296d2942a"
+    }
+  ],
+  "ordersQuantity": 2,
+  "amountSpent": 159700000,
+  "address": [
+    {
+      "name": "truong2",
+      "phone": "0353288237",
+      "specificAdd": "1 thanh cong",
+      "district": "Phường Thành Công-Quận Ba Đình-Thành phố Hà Nội"
+    }
+  ],
+  "paymethod": [],
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "62ce266afe81d32f287c068c"
+  },
+  "facebookId": "",
+  "name": "Truong Pham NEU",
+  "email": "truongpham2412@gmail.com",
+  "phone": "",
+  "password": "$2a$10$9FwWYK3R0f/QbGEwTszJZ.iOTNy0pHVy/4ImCp3CO3d2fvXLcllvG",
+  "cart": [],
+  "ordersQuantity": 2,
+  "amountSpent": 63500000,
+  "address": [
+    {
+      "name": "Truong Pham",
+      "phone": "0343241299",
+      "specificAdd": "207 giải phóng",
+      "district": "Phường Đồng Tâm-Quận Hai Bà Trưng-Thành phố Hà Nội"
+    }
+  ],
+  "paymethod": [],
+  "__v": 0,
+  "avatar": "http://localhost:3333/file/631cbe4ad23c98f53c2c5bdd"
+},{
+  "_id": {
+    "$oid": "62ce2a8cdbe673aaac39c3cc"
+  },
+  "facebookId": "",
+  "name": "Le luc",
+  "email": "leluc1@gmail.com",
+  "phone": "0343239273",
+  "password": "$2a$10$ishwttou63DZFnek2ioD4e63MgryZkU.SJkOGcBcnTLJw0iV8j39e",
+  "cart": [],
+  "ordersQuantity": 0,
+  "amountSpent": 0,
+  "address": [],
+  "paymethod": [],
+  "__v": 0,
+  "avatar": "http://localhost:3333/file/62ce2a9bdbe673aaac39c3dc"
+}]

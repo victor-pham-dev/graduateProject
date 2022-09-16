@@ -112,7 +112,7 @@ function WareHouse(props) {
             
             const cardimg = process.env.REACT_APP_SERVER_URL + "/file/"+ item.cardimg;
             return (
-                <Col key={key} xl={{span:6}} lg={{span:6}}>
+                <Col key={key} xl={{span:5}} lg={{span:5}}>
                    
                     
                         <Card
@@ -120,6 +120,7 @@ function WareHouse(props) {
                             style={{ width: "100%",opacity: 0.9 }}
                             cover={
                             <img
+                            style={{maxHeight: 234}}
                                 alt={item.name}
                                 src={cardimg}
                             />
@@ -249,7 +250,7 @@ function WareHouse(props) {
                     </Select>
                 </Col>
             </Row>
-            <Row gutter={[16,16]} style={{marginTop: 12}}>
+            <Row gutter={[4,4]} justify="center" style={{marginTop: 12}}>
                 {mapData}
             </Row>
             <Modal footer={null} title="Chi tiết số lượng hàng" visible={isModalVisible} onCancel={handleCancel}>

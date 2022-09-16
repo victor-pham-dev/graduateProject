@@ -35,6 +35,7 @@ function ProductCard(props) {
                 style={{ width: "100%",opacity: 0.9 }}
                 cover={
                 <img
+                    style={{maxHeight: 234}}
                     alt={data.name}
                     src={cardimg}
                 />

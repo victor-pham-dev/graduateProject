@@ -1,0 +1,126 @@
+[{
+  "_id": {
+    "$oid": "62ad7cc71b86d927fb90a490"
+  },
+  "slider": [
+    "62cad122e054ddd6b5b58d42",
+    "62cad128e054ddd6b5b58d48",
+    "62cad12ee054ddd6b5b58d4e",
+    "62cad139e054ddd6b5b58d54"
+  ],
+  "banner": "62cad25ae054ddd6b5b58d7f",
+  "productCarousel": [
+    {
+      "_id": "62c7d1aee054ddd6b5b5894c",
+      "name": "Laptop MacBook Pro 14 M1 Max 2021",
+      "category": "laptop",
+      "status": "Còn hàng",
+      "config": {
+        "cpu": "Apple M1 Max",
+        "ram": "32",
+        "monitorSize": "14.2",
+        "gpu": "Card tích hợp24 nhân GPU",
+        "rom": "512GB"
+      },
+      "pricerange": "72.400.000",
+      "cardimg": "62c7d0b1e054ddd6b5b58940",
+      "sold": 2
+    },
+    {
+      "_id": "62c6f7ca8a9a0cdc4333a998",
+      "name": "Điện thoại iphone 13 Pro Max",
+      "category": "mobile",
+      "status": "Còn hàng",
+      "pricerange": "29.000.000-34.400.000",
+      "cardimg": "62c6f7788a9a0cdc4333a98e",
+      "sold": 2,
+      "config": {
+        "cpu": "Apple A15 Bionic",
+        "ram": "6",
+        "monitorSize": "6.7",
+        "gpu": "...",
+        "rom": "128GB-1TB"
+      }
+    },
+    {
+      "_id": "62ce344fdbe673aaac39c460",
+      "name": "Điện thoại Iphone 13 128GB",
+      "category": "mobile",
+      "status": "Trả góp 0%",
+      "config": {
+        "cpu": "Apple A15 Bionic",
+        "ram": "4",
+        "monitorSize": "6.1",
+        "gpu": "Apple GPU 5 nhân",
+        "rom": "128GB"
+      },
+      "pricerange": "19.000.000-19.790.000",
+      "cardimg": "62ce3415dbe673aaac39c450",
+      "sold": 0
+    },
+    {
+      "_id": "62d80b97f03a4ca296d2942a",
+      "name": "Samsung Galaxy Z Flip3 5G 128GB",
+      "category": "mobile",
+      "status": "Trả góp 0%",
+      "config": {
+        "cpu": "Snapdragon 888",
+        "ram": "8",
+        "monitorSize": "6.7",
+        "gpu": "Snapdragon 888",
+        "rom": "128 GB"
+      },
+      "pricerange": "17.800.000-18.300.000",
+      "cardimg": "62d80b75f03a4ca296d29422",
+      "sold": 0
+    },
+    {
+      "_id": "62d80d1bf03a4ca296d294b5",
+      "name": "Samsung Galaxy S20 FE 256GB ",
+      "category": "mobile",
+      "status": "Còn hàng",
+      "config": {
+        "cpu": "Snapdragon 865",
+        "ram": "8",
+        "monitorSize": "6.5",
+        "gpu": "Adreno 650",
+        "rom": "256GB"
+      },
+      "pricerange": "10.890.000-10.900.000",
+      "cardimg": "62d80cc1f03a4ca296d294ad",
+      "sold": 0
+    }
+  ],
+  "hotProduct": [
+    {
+      "_id": "62c92ef0e054ddd6b5b58a9b",
+      "name": "Laptop MSI Modern 14 B11MOU-1034VN i5 1155G7/8GB/512GB/14\"FHD/Win 11",
+      "status": "Trả góp 0%",
+      "pricerange": "14.900.000",
+      "cardimg": "62c92ec8e054ddd6b5b58a91"
+    },
+    {
+      "_id": "62c7d1aee054ddd6b5b5894c",
+      "name": "Laptop MacBook Pro 14 M1 Max 2021",
+      "status": "Còn hàng",
+      "pricerange": "72.400.000",
+      "cardimg": "62c7d0b1e054ddd6b5b58940"
+    },
+    {
+      "_id": "62c6f7ca8a9a0cdc4333a998",
+      "name": "Điện thoại iphone 13 Pro Max",
+      "status": "Còn hàng",
+      "pricerange": "29.000.000-34.400.000",
+      "cardimg": "62c6f7788a9a0cdc4333a98e",
+      "sold": 2
+    },
+    {
+      "_id": "62ce463adbe673aaac39c502",
+      "name": "Điện thoại Iphone 13 Mini",
+      "status": "Còn hàng",
+      "pricerange": "18.500.000-25.490.000",
+      "cardimg": "62ce45f3dbe673aaac39c4f4",
+      "sold": 0
+    }
+  ]
+}]

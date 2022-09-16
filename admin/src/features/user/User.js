@@ -93,9 +93,7 @@ function User(props) {
             return(
                 <Popover content={content} title={null}>
                 <Row gutter={6}>
-                    <Badge  color={"green"} count={processingOrder +" đơn đang xử lý"} offset={[-70, 20]}>
-                        <AlertOutlined  />
-                    </Badge>
+             
                     <Col>
                         <Avatar src="https://joeschmoe.io/api/v1/random" />
                     </Col>
@@ -103,9 +101,7 @@ function User(props) {
                         <h4 className='userName'>{user.username}</h4>
                     </Col>
                     <Col>
-                    <Badge  count={newOrder +" đơn COD mới"} offset={[60, 0]}>
-                        <AlertOutlined  />
-                    </Badge>
+                   
                    
                         
                     </Col>

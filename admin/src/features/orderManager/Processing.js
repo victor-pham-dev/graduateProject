@@ -106,19 +106,19 @@ function Unconfirmed(props) {
           dataIndex: '',
           render: (text,record,index)=>{
             const confirmCancel = ()=>{
-                // var cloneTbData = [...tbData]
-                //     cloneTbData.splice(index,1)
-                // axios.post(process.env.REACT_APP_SERVER_URL+"/user/order/cancel",{"userId": userId,"cancelId": record._id},
-                // {headers: {
-                //     "x-access-token": token
-                // }}).then(res=>{
-                //     if(res.status === 200){
-                //         setTbData(cloneTbData);
-                //         message.success("Đã hủy đơn")
-                //     }else{
-                //         message.warning("Đã có lỗi xảy ra")
-                //     }
-                // })
+                var cloneTbData = [...tbData]
+                    cloneTbData.splice(index,1)
+                axios.post(process.env.REACT_APP_SERVER_URL+"/order/cancelbyid",{"userId": record.userId,"cancelId": record._id},
+                {headers: {
+                    "x-access-token": token
+                }}).then(res=>{
+                    if(res.status === 200){
+                        setTbData(cloneTbData);
+                        message.success("Đã hủy đơn")
+                    }else{
+                        message.warning("Đã có lỗi xảy ra")
+                    }
+                })
             }
             const itemsarr = record.items;
             const confirm = ()=>{

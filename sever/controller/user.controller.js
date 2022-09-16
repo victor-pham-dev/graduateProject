@@ -36,7 +36,7 @@ exports.FaceBookLogIn = async (req, res) => {
         { user_id: user._id, facebookId },
         process.env.TOKEN_KEY,
         {
-          expiresIn: "48h",
+          expiresIn: "1m",
         }
       );
       // save user token

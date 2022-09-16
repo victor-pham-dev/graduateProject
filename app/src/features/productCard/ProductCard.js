@@ -54,12 +54,11 @@ function ProductCard(props) {
             )
         }else if(data.category === 'laptop'){
             return (
-                <Row gutter={[1,1]} >
-                <Col span={24}><BsCpu  /> <span style={{lineHeight: "10px"}} >{config.cpu}</span></Col>
-                <Col span={12}><FaMemory /> <span>{config.ram}GB</span></Col>
-                <Col span={12}><BiMemoryCard /> <span>{config.rom}</span></Col>
-                <Col span={24}><BsLaptop /> <span>{config.monitorSize} inch</span></Col>
-              
+                <Row gutter={3} >
+                <Col ><BsCpu  /> <span style={{lineHeight: "10px"}} >{config.cpu}</span></Col>
+                <Col ><FaMemory /> <span>{config.ram}GB</span></Col>
+                <Col ><BiMemoryCard /> <span>{config.rom}</span></Col>
+                <Col ><BsLaptop /> <span>{config.monitorSize} inch</span></Col>
                 <Col><GiCpu /> <span>{config.gpu}</span></Col>
                
             </Row>
